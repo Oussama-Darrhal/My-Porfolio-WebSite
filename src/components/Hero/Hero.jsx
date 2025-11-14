@@ -41,7 +41,7 @@ const sliderVariants = {
 }
 
 const scrollByAmount = () => {
-    window.scrollBy({ top: 200, behavior: 'smooth' }); // Change 200 to the desired scroll amount in pixels
+    window.scrollBy({ top: 200, behavior: 'smooth' });
 };
 
 export const Hero = () => {
@@ -49,7 +49,7 @@ export const Hero = () => {
         <div className="hero">
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" whileInView="animate">
-                    <motion.h2 variants={textVariants}>yassine habybellah</motion.h2>
+                    <motion.h2 variants={textVariants}>Oussama Darrhal</motion.h2>
                     <motion.h1 variants={textVariants}>Full Stack Web Developer.</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <a href="#Portfolio" class="first-button"><motion.button variants={textVariants}>See Latest Work</motion.button></a>
@@ -59,7 +59,7 @@ export const Hero = () => {
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                PHP Laravel VueJS React JavaScript
+                JavaScript PHP Laravel React.JS MySQL
             </motion.div>
             <div className="imageContainer">
                 <img src="/hero.png" alt="" />

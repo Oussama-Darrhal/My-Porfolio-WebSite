@@ -7,7 +7,6 @@ import { Parallax } from "./components/Parallax/Parallax";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Services } from "./components/Services/Services";
 
-
 const App = () => {
   return <div >
   <div>
